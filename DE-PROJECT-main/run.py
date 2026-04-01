@@ -21,5 +21,6 @@ def save_data():
     print(regno,name,standard,math,science,computer)
     
     return redirect(url_for('home'))
-
-#app.run()
+    
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
