@@ -22,4 +22,4 @@ def save_data():
     
     return redirect(url_for('home'))
 
-app.run()
+#app.run()
